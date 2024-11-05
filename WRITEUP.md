@@ -1,12 +1,3 @@
 # Write-up Template
 
-### Analyze, choose, and justify the appropriate resource option for deploying the app.
-
-*For **both** a VM or App Service solution for the CMS app:*
-- *Analyze costs, scalability, availability, and workflow*
-- *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
-
-### Assess app changes that would change your decision.
-
-*Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+The reasons why I chose the web app over the virtual machine are due to the accessibility, maintenance, scalibility, cost, security and user experience. With the wqeb app, it can be accessed from any device with an internet connetion and a web browser, therefore, making it easier for end users to access. Web apps are easier to maintain since updates and bug fixes can be deployed centrally on the server, without requiring users to download and install updates as needed. With a web app, you can avoid the overhead of managing VMs, such as hardware costs, licensing fees, and the need for specialized IT staff making the web app more cost effective. Web apps seem to provde a better user experience for the end user as well as they can integrate more easily with other web services and API's. Lastly, when updating the code for the security errors, it was much quicker to be able to update invalid logins with error messages allowing you to easily see any issues. 
