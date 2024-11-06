@@ -22,7 +22,7 @@ Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
 Create container named "images". Set its access level to Container.
 From Security + networking > Access keys:
-Blob Storage key: wv2ld/u2ANQGF4NRE/XUj/jmCodCm7OE3+vvLMQdu3GbN1rx36/REk59LYmwzqv74XICRMOR6vUb+AStDI8GrA==
+Blob Storage key: AEjg2A1q7yUSlqhrxif9j5JJ60ekY9YWN65X3nnriGLAy260QLd9OEe+jIDm5LmVIxbo+pEEABRg+ASti893vA==
 
 4. Microsoft Entra ID
 
@@ -32,15 +32,15 @@ Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID t
 
 4.2. Secret Creation
 Secret description: cmsSecret
-Secret Key: 6956e52a-9b20-4baf-b6e2-fd4f082af6af
-Client Secret: I_h8Q~Bf6X8AARUgineqv~N5riQbcazSFKGnAcRY
-Application (client) ID: 7fe7dce5-c3f9-4ee3-942e-4893c3609580
+Secret Key: 71c3cef4-2887-40ff-8251-3245f912cbab
+Client Secret: TyO8Q~0sJcIbFA9LpCu~fcXllsgJ6m-a5GbScc4j
+Application (client) ID: d3868a33-ba64-4a4d-933d-a316a305b11c
 
 
 5. Application
 
 5.2. OPTION 2: Web App (easier)
-Name: udacitycms.azurewebsites.net
+Name: udacitycms123.azurewebsites.net
 Runtime stack: Python 3.10
 Pricing Plan: Free F1
 If you are getting a "Validation failed for a resource" error, pick a different region.
@@ -48,16 +48,16 @@ If you are getting a "Validation failed for a resource" error, pick a different 
 After creation:
 
 Settings -> Environment variables 
-BLOB_ACCOUNT: images114
+BLOB_ACCOUNT: images116
 BLOB_CONTAINER: images
-BLOB_STORAGE_KEY: wv2ld/u2ANQGF4NRE/XUj/jmCodCm7OE3+vvLMQdu3GbN1rx36/REk59LYmwzqv74XICRMOR6vUb+AStDI8GrA==
-SQL_SERVER: cms.database.windows.net
+BLOB_STORAGE_KEY: AEjg2A1q7yUSlqhrxif9j5JJ60ekY9YWN65X3nnriGLAy260QLd9OEe+jIDm5LmVIxbo+pEEABRg+ASti893vA==
+SQL_SERVER: cms123.database.windows.net
 SQL_DATABASE: cms
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
-CLIENT_SECRET: I_h8Q~Bf6X8AARUgineqv~N5riQbcazSFKGnAcRY
-SECRET_KEY: 6956e52a-9b20-4baf-b6e2-fd4f082af6af
-CLIENT_ID: 7fe7dce5-c3f9-4ee3-942e-4893c3609580
+CLIENT_SECRET: TyO8Q~0sJcIbFA9LpCu~fcXllsgJ6m-a5GbScc4j
+SECRET_KEY: 71c3cef4-2887-40ff-8251-3245f912cbab
+CLIENT_ID: d3868a33-ba64-4a4d-933d-a316a305b11c
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
