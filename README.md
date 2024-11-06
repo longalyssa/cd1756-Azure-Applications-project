@@ -3,8 +3,8 @@ Resource Group Name: cms
 
 2. SQL Database
 DB name: cms
-Server: cms.database.windows.net
-DB region: us-east
+Server: cms123.database.windows.net
+DB region: us-central
 Admin login: cmsadmin
 Admin password: CMS4dmin
 Resource group: cms
@@ -16,7 +16,7 @@ Run SQL queries in sql_scripts/ directory after completion, starting from the us
 
 3. Storage Account
 Resource group: cms
-Storage account name: images114 (needs to be unique)
+Storage account name: images116
 Advanced - Allow enabling anonymous access on individual containers: Enable
 Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
