@@ -16,13 +16,13 @@ Run SQL queries in sql_scripts/ directory after completion, starting from the us
 
 3. Storage Account
 Resource group: cms
-Storage account name: images116
+Storage account name: images1106
 Advanced - Allow enabling anonymous access on individual containers: Enable
 Advanced - Access tier: Cool
 Network access: Enable public access from all networks (the default)
 Create container named "images". Set its access level to Container.
 From Security + networking > Access keys:
-Blob Storage key: AEjg2A1q7yUSlqhrxif9j5JJ60ekY9YWN65X3nnriGLAy260QLd9OEe+jIDm5LmVIxbo+pEEABRg+ASti893vA==
+Blob Storage key: sbf73gPP5PzwJbNihe1/QdaF9PchaC/bK3rlJD/9//q0D7o6QX/IG4TTPHx14IGMYXm611IygM4W+AStNWjukQ==
 
 4. Microsoft Entra ID
 
@@ -48,9 +48,9 @@ If you are getting a "Validation failed for a resource" error, pick a different 
 After creation:
 
 Settings -> Environment variables 
-BLOB_ACCOUNT: images116
+BLOB_ACCOUNT: images1106
 BLOB_CONTAINER: images
-BLOB_STORAGE_KEY: AEjg2A1q7yUSlqhrxif9j5JJ60ekY9YWN65X3nnriGLAy260QLd9OEe+jIDm5LmVIxbo+pEEABRg+ASti893vA==
+BLOB_STORAGE_KEY: sbf73gPP5PzwJbNihe1/QdaF9PchaC/bK3rlJD/9//q0D7o6QX/IG4TTPHx14IGMYXm611IygM4W+AStNWjukQ==
 SQL_SERVER: cms123.database.windows.net
 SQL_DATABASE: cms
 SQL_USER_NAME: cmsadmin
